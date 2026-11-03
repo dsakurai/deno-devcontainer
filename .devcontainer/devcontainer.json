@@ -17,6 +17,7 @@
         //     // "version": "os-provided"  // The default. When the VSCode is running on Windows and DevContainer on WSL, seems the Windows' git is passed.The understanding is important for managing credentials.  (If the git feature is not used, the credential seems to be from WSL.) 
         // }
     },
+    "postAttachCommand": "deno audit",
     "customizations": {
         "vscode": {
             "extensions": [

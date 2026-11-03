@@ -1,0 +1,18 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:undici@^6.21.1": "6.29.1"
+  },
+  "npm": {
+    "undici@6.29.1": {
+      "integrity": "sha512-EvRlUt/QqAEvXdQeRMYUfwOQsfzpDztykrG2owGEE/rBOBoYv9uF39ZzsNDh4lTFHhTr2XOZjKkYgueD12ZmGA=="
+    }
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:undici@^6.21.1"
+      ]
+    }
+  }
+}
