@@ -5,6 +5,7 @@
     },
     "updateRemoteUserUID": true,
     "features": {
+        "ghcr.io/devcontainers-community/features/deno": {}
         // NOTE: using dotfiles from DevContainer may delay or even fail setting git configs.
         // After the dotfiles are installed, the following will be issued.
         // [159303 ms] Start: Run in container: # Test for /home/devuser/.gitconfig and git
@@ -16,10 +17,11 @@
         //     // "version": "os-provided"  // The default. When the VSCode is running on Windows and DevContainer on WSL, seems the Windows' git is passed.The understanding is important for managing credentials.  (If the git feature is not used, the credential seems to be from WSL.) 
         // }
     },
-    // "customizations": {
-    //     "vscode": {
-    //         "extensions": [
-    //         ]
-    //     }
-    // }
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "denoland.vscode-deno",
+            ]
+        }
+    }
 }
